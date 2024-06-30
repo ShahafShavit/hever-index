@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Navigate to the project directory
+cd /path/to/your/project
+
+# Install dependencies
+npm install
+
+# Build the project
+npm run build
+
+# Export the project
+npm run export
+
+# Copy the exported files to the public_html directory
+cp -r out/* /path/to/your/subdomain/public_html/
