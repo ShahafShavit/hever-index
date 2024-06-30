@@ -6,25 +6,58 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --storecard-foreground-rgb: 20,20,20;
+  --storecard-background-rgb: 214,214,214
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: 20, 20, 20;
+    --background-end-rgb: 20, 20, 20;
+    --storecard-background-rgb: 30, 30, 30;
+    --storecard-foreground-rgb: 214,214,214;
   }
+}
+
+@media (min-width: 1870px) {
+  .container {
+    max-width: 1870px;
+  } 
+}
+
+
+html {
+  direction: rtl;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(var(--background-start-rgb));
+  padding: 1rem;
+  direction: rtl;
+  text-align: right;
 }
+
+.store-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ensures the card takes full height of its container */
+}
+
+.store-info {
+  flex-grow: 1; /* Makes sure it takes the remaining space */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensures that elements are spaced evenly */
+}
+
+.store-info h3 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 
 @layer utilities {
   .text-balance {

@@ -1,0 +1,82 @@
+.store-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensures the card takes full height of its container */
+  }
+  
+  .store-info {
+    flex-grow: 1; /* Makes sure it takes the remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures that elements are spaced evenly */
+  }
+  
+  .store-info h3 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+
+  /* StoreCard.module.css */
+  /*
+.storeCard {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #2d2d2d;
+}
+
+.imagePlaceholder {
+  background-color: #333;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.storeInfo {
+  text-align: center;
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.button {
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 4px;
+  text-align: center;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.blue {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.green {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.gray {
+  background-color: #6c757d;
+  color: #fff;
+  cursor: not-allowed;
+}
+*/
