@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hever Index
 
-## Getting Started
+Hever Index is a fullstack project showcasing the development behind a public, usable and practical tool. This project is part of a portfolio and is also an actual usable public tool hosted on a live domain.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Description](#description)
+- [Features](#features)
+- [Data Source](#data-source)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact Information](#contact-information)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Description
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Hever Index is a tool designed to easily give access to all the shops and companies the 'Hever' (MCC) credit card companies provide discount at. The main functionalities include easily displaying of the discount, easy sorting and searching for a certain shop, either by category or by name. The website is designed to be simple, straight-forward, intuitive and user-friendly, offering easy access for ways for people to save money.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+- **Feature 1**: Display all stores in a gallery-like format with easy sorting and searching.
+- **Feature 2**: Navigate straight to 'Hever' (MCC)'s shop's website or the actual website of the shop if provided.
+- **Feature 3**: Easy understanding where you can save money on your purchase.
 
-To learn more about Next.js, take a look at the following resources:
+## Data Source
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The data for Hever Index is scraped using a separate repository called [Hever Scraper](https://github.com/ShahafShavit/hever-scraper). The `.db` database file that the website relies on is created using this scraper (requires OpenAI's ChatGPT's API for optimal use) and is updated periodically to ensure accurate and up-to-date information.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Usage
 
-## Deploy on Vercel
+The Hever Index is accessible directly via the live website. No local setup is required to use the tool. Simply visit [place-holder] to access the features and functionalities of the website.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+We welcome contributions! If you have suggestions for improvements or want to report issues, please open an issue or create a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact Information
+
+For any inquiries, please contact Shahaf Shavit at [shavitshahaf@gmail.com].
+
