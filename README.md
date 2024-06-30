@@ -33,6 +33,7 @@ The Hever Index is accessible directly via the live website. No local setup is r
 ## Contributing
 
 We welcome contributions! If you have suggestions for improvements or want to report issues, please open an issue or create a pull request.
+Design and functionalities contibutions are very welcome!
 
 ## License
 
