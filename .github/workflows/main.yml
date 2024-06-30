@@ -16,13 +16,16 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '16'
 
       - name: Install dependencies
         run: npm install
 
       - name: Build project
         run: npm run build
+
+      - name: Export static files
+        run: npm run export
 
       - name: Deploy to Hostinger
         env:
@@ -31,4 +34,4 @@ jobs:
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         run: |
           npm install -g ftp-deploy
-          ftp-deploy --server $FTP_SERVER --username $FTP_USERNAME --password $FTP_PASSWORD --local-dir out --remote-dir /
+          ftp-deploy --server $FTP_SERVER --username $FTP_USERNAME --password $FTP_PASSWORD --local-dir out --remote-dir /path/to/your/subdomain
