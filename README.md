@@ -39,6 +39,10 @@ Design and functionalities contibutions are very welcome!
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## אודות
+האתר הוקם במטרה אחת- להציג את כל החנויות המעניקות הנחות עבור הכרטיס הזהב של חבר במעמד הרכישה. נכון ל2024, הפלטפורמה שאתר חבר מספק למציאת מידע זה מקשה מאוד על מציאת עסקים והסכלות על כלל החנויות במבט על.
+כל המידע הנמצא באתר נמשך מאתר חבר. הודות לחבר יש גם הרבה מידע לא מעודכן ועסקים שנסגרו אך עדיין מופיעים שם. עזרה בפיתוח האתר הינה מבורכת על מנת לשפר את שירות האתר.
+
 ## Contact Information
 
 For any inquiries, please contact Shahaf Shavit at [shavitshahaf@gmail.com].
