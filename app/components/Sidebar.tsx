@@ -8,7 +8,7 @@ interface SidebarProps {
 }
 
 const Sidebar: React.FC<SidebarProps> = ({ categories }) => (
-    <div className="sidebar p-4 bg-gray-20 w-1/4">
+    <div className="sidebar p-4 bg-gray-20">
         {Object.keys(categories).map((category) => (
             <div key={category} className="mb-4">
                 <h2 className="font-bold">{category}</h2>

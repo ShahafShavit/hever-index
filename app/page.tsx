@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import Sidebar from './components/Sidebar';
 import StoresList from './components/StoresList';
+import Navbar from './components/Navbar';
 
 const Home: React.FC = () => {
     const [categories, setCategories] = useState<Record<string, string[]>>({});
@@ -14,9 +15,13 @@ const Home: React.FC = () => {
     }, []);
 
     return (
-        <div className="container flex">
-            <Sidebar categories={categories} />
-            <StoresList />
+        <div className='layout'>
+            <Navbar />
+            <div className="container flex">
+                
+                <Sidebar categories={categories} />
+                <StoresList />
+            </div>
         </div>
     );
 };
