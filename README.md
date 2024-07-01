@@ -1,6 +1,6 @@
 # Hever Index
 
-Hever Index is a fullstack Next.JS project showcasing the development behind a public, usable and practical tool. This project is part of a portfolio and is also an actual usable public tool hosted on a live domain.
+Hever Index is a fullstack Next.JS project meant to give easier access for data in MCC (Hever) website in a public, usable and practical tool. This is an actual usable public tool hosted on a live domain.
 
 ## Table of Contents
 
