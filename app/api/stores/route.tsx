@@ -1,6 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { openDb } from '../../../database';
 
+// Static export bakes this response at build time. Next.js 15 requires this flag.
+export const dynamic = 'force-static';
+
 // Define the handler for GET requests
 export async function GET(req: NextRequest) {
     const db = await openDb();

@@ -1,6 +1,9 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import { openDb } from '../../../database';
 
+// Static export bakes this response at build time. Next.js 15 requires this flag.
+export const dynamic = 'force-static';
+
 export async function GET(req: Request) {
     const db = await openDb();
     const categories = await db.all('SELECT DISTINCT main_category, sub_category FROM scraped_data WHERE title IS NOT NULL');
